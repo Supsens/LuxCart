@@ -1,0 +1,143 @@
+/* Cart Section Styles */
+.cart-section {
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    width: 400px;
+    max-height: calc(100vh - 100px);
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 1000; 
+  }
+  
+  .cart-hidden {
+    opacity: 0;
+    transform: scale(0.95);
+    pointer-events: none;
+  }
+  
+  .cart-visible {
+    opacity: 1;
+    transform: scale(1);
+    pointer-events: auto;
+  }
+  
+  .cart-section h2 {
+    color: #336699;
+    margin-bottom: 20px;
+    font-size: 1.8rem; 
+    font-weight: 700;
+    font-family: 'Playfair Display', serif; 
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .cart-item img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 15px;
+    border-radius: 8px;
+  }
+  
+  .cart-item-details {
+    flex-grow: 1;
+  }
+  
+  .cart-item h3 {
+    font-size: 1rem; 
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .cart-item p {
+    font-size: 0.9rem;
+    color: #555; 
+    font-weight: 500; 
+  }
+  
+  .quantity {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .quantity button {
+    background-color: #f1f3f4;
+    color: #333;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .quantity span {
+    font-size: 14px;
+    margin: 0 10px;
+  }
+  
+  .cart-item .remove-btn {
+    background-color: #ff4081;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cart-item .remove-btn:hover {
+    background-color: #f50057;
+  }
+  
+  .cart-summary {
+    margin-top: 30px;
+    text-align: right;
+  }
+  
+  .cart-summary p {
+    margin-bottom: 15px;
+    font-size: 1.1rem; 
+    font-weight: 600;
+    font-family: 'Playfair Display', serif; 
+  }
+  
+  .cart-summary button {
+    background: linear-gradient(to bottom, #d4af6f, #b8925d);
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px; 
+    border-radius: 28px;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+    font-size: 1rem;
+    font-weight: 600; 
+    text-transform: uppercase;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cart-summary button:hover {
+    background: linear-gradient(to bottom, #b8925d, #d4af6f);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); 
+  }
+  
+.no-products-message { 
+  text-align: center;
+  padding: 20px;
+  font-size: 1.1rem;
+  color: #555; 
+}
