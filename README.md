@@ -31,7 +31,7 @@ Website is deployed on vercel
 ![alt text](image-1.png)
 
 ### Responsive Design: Offers a decent viewing experience across different screen sizes (desktops, tablets, mobile).
-
+![alt text](image-5.png)
 ## Installation and Setup
 Clone the Repository:
 
