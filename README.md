@@ -4,7 +4,7 @@ LuxCart is a basic e-commerce application built with HTML, CSS, and JavaScript. 
 
 ## DeployMent
 Website is deployed on vercel
-### link: https://lux-cart-ketggwc7y-supsens-projects.vercel.app/
+### link: https://lux-cart-ntve5oyuc-supsens-projects.vercel.app/
 
 ## Key Features
 ### Product Listing:
